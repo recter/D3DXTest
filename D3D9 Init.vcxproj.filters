@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="SubTest">
+      <UniqueIdentifier>{ce878a6b-f7ef-4edc-955d-62767b8ec654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubTest\Header">
+      <UniqueIdentifier>{e37c6a4a-af89-4d86-8853-94b035f38232}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubTest\Source">
+      <UniqueIdentifier>{3ca861c1-6c6b-4fb8-b611-3ba3a5aeecac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d3dInit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dUtility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AddressModes.cpp">
+      <Filter>SubTest\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SquareTranList.cpp">
+      <Filter>SubTest\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeBox.cpp">
+      <Filter>SubTest\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TeaPot.cpp">
+      <Filter>SubTest\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="StencilOne.cpp">
+      <Filter>SubTest\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FontFPS.cpp">
+      <Filter>SubTest\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshDemo1.cpp">
+      <Filter>SubTest\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshLoadX.cpp">
+      <Filter>SubTest\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraTest.cpp">
+      <Filter>SubTest\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraMgr.cpp">
+      <Filter>SubTest\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d3dUtility.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AddressModes.h">
+      <Filter>SubTest\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SquareTranList.h">
+      <Filter>SubTest\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TestSource.h">
+      <Filter>SubTest</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeBox.h">
+      <Filter>SubTest\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ISubBase.h">
+      <Filter>SubTest</Filter>
+    </ClInclude>
+    <ClInclude Include="TeaPot.h">
+      <Filter>SubTest\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="StencilOne.h">
+      <Filter>SubTest\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FontFPS.h">
+      <Filter>SubTest\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshDemo1.h">
+      <Filter>SubTest\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshLoadX.h">
+      <Filter>SubTest\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraTest.h">
+      <Filter>SubTest\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraMgr.h">
+      <Filter>SubTest\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
